@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 
 export default function VanDetail() {
   const params = useParams();
-  console.log(params);
 
   const [van, setVan] = React.useState(null);
   React.useEffect(() => {
